@@ -1,10 +1,25 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Product from "./pages/Product";
+import Pricing from "./pages/Pricing";
+import PageNotFound from "./pages/PageNotFound";
 function App() {
-  const x = 25;
   return (
     <div>
-      <h1>WordWise</h1>
+      <h1>Worldwise</h1>
+    <BrowserRouter>
+    <Routes>
+      <Route path="*" element={<PageNotFound />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/product" element={<Product />} />
+      <Route path="/pricing" element={<Pricing />} />
+      
+      
+    </Routes>
+    </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;
