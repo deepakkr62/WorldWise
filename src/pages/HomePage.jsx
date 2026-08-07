@@ -1,8 +1,12 @@
-
+import {Link} from 'react-router-dom';
+import PageNav from '../components/PageNav';
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <PageNav />
+      <h1>Home Page</h1>
+    </div>
   )
 }
 
