@@ -1,0 +1,26 @@
+.nav{
+ background-color:aqua
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between
+   
+}
+
+/* never use direct child selector in css, use class name instead of direct child selector. */
+
+/* global selector is used to apply styles to all elements of a specific type, regardless of their location in the DOM. It is denoted by the 
+element name without any class or ID prefix. For example, using `div` as a global selector will 
+apply styles to all `<div>` elements in the document. */
+
+
+
+.nav :global(.active) {
+    background-color: green;
+}
+
+:global(.test) {
+    background-color: red;
+}
