@@ -8,6 +8,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Login from "./pages/Login";
 import './index.css'
 import CityList from "./components/CityList";
+import CountryList from "./components/CountryList";
 
 const BASE_URL ="http://localhost:8000";
 function App() {
@@ -46,7 +47,7 @@ console.log(cities);
       <Route path="/app" element={<AppLayout />}>
        <Route index element={<CityList cities={cities} isLoading={isLoading} />} />
        <Route path="cities" element={<CityList cities={cities} isLoading={isLoading} />} />
-       <Route path="countries" element={<p>List of countries</p>} />
+       <Route path="countries" element={<CountryList cities={cities} isLoading={isLoading} />} />
        <Route path="form" element={<p>Form</p>} />
       </Route>
   
