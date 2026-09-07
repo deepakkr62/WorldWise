@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import './index.css'
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
+import City from "./components/City";
 
 const BASE_URL ="http://localhost:8000";
 function App() {
@@ -38,15 +39,14 @@ console.log(cities);
     <div>
     <BrowserRouter>
     <Routes>
-      {/* index route is the default route for the app. It will be rendered when the user visits the 
-      root URL of the app. The element prop specifies the component that will be rendered for this 
-      route. In this case, it is the HomePage component. */}
+      
       <Route index element={<HomePage />} />  
       <Route path="/product" element={<Product />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/app" element={<AppLayout />}>
        <Route index element={<CityList cities={cities} isLoading={isLoading} />} />
        <Route path="cities" element={<CityList cities={cities} isLoading={isLoading} />} />
+       <Route path="cities/:id" element={<City />} />
        <Route path="countries" element={<CountryList cities={cities} isLoading={isLoading} />} />
        <Route path="form" element={<p>Form</p>} />
       </Route>
