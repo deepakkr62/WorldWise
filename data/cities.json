@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,116 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "cityName": "Montchevrier",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2026-09-16T05:04:43.121Z",
+      "notes": "gg",
+      "position": {
+        "lat": "46.500896486853954",
+        "lng": "1.7394027594934782"
+      },
+      "id": "GEGPLI5wg0E"
+    },
+    {
+      "cityName": "Lles de Cerdanya",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-09-16T05:08:38.038Z",
+      "notes": "gg",
+      "position": {
+        "lat": "42.4245844061798",
+        "lng": "1.6040039062500002"
+      },
+      "id": "RIjmXkB-_Ac"
+    },
+    {
+      "cityName": "Guernsey",
+      "country": "Guernsey",
+      "emoji": "🇬🇬",
+      "date": "2026-09-16T05:12:17.949Z",
+      "notes": "gg",
+      "position": {
+        "lat": "49.351831464473165",
+        "lng": "-2.2851562500000004"
+      },
+      "id": "9aGyvS-gZFI"
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "emoji": "🇬🇧",
+      "date": "2026-09-16T05:14:09.519Z",
+      "notes": "gg",
+      "position": {
+        "lat": "51.38645769753283",
+        "lng": "0.0280250451732389"
+      },
+      "id": "_YEQoqRu7qM"
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "emoji": "🇬🇧",
+      "date": "2026-09-16T05:14:09.519Z",
+      "notes": "gg",
+      "position": {
+        "lat": "51.38645769753283",
+        "lng": "0.0280250451732389"
+      },
+      "id": "O-Zx4wErTck"
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "emoji": "🇬🇧",
+      "date": "2026-09-16T05:14:09.519Z",
+      "notes": "gg",
+      "position": {
+        "lat": "51.38645769753283",
+        "lng": "0.0280250451732389"
+      },
+      "id": "b8auSIy83VE"
+    },
+    {
+      "cityName": "Santon",
+      "country": "Isle of Man",
+      "emoji": "🇮🇲",
+      "date": "2026-09-16T05:21:28.970Z",
+      "notes": "gg",
+      "position": {
+        "lat": "54.111335346804864",
+        "lng": "-4.5494132863137375"
+      },
+      "id": "pNCzN34I_ew"
+    },
+    {
+      "cityName": "Dornoch",
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "emoji": "🇬🇧",
+      "date": "2026-09-16T05:21:52.485Z",
+      "notes": "kkk",
+      "position": {
+        "lat": "58.33184136654352",
+        "lng": "-3.8891601562500004"
+      },
+      "id": "e4XvTd2Z100"
+    },
+    {
+      "cityName": "Attinghausen",
+      "country": "Switzerland",
+      "emoji": "🇨🇭",
+      "date": "2026-09-16T05:23:40.078Z",
+      "notes": "hhh",
+      "position": {
+        "lat": "46.84339275341345",
+        "lng": "8.547363281250002"
+      },
+      "id": "M5TYV4CuLeo"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
