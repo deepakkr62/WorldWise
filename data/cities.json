@@ -47,6 +47,30 @@
         "lng": "1.7358398437500002"
       },
       "id": "QerP-uKepbc"
+    },
+    {
+      "cityName": "Fuenlabrada de los Montes",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-09-17T05:48:35.307Z",
+      "notes": "",
+      "position": {
+        "lat": "39.0456594510998",
+        "lng": "-4.894955225503504"
+      },
+      "id": "DafcAtlwBPI"
+    },
+    {
+      "cityName": "A Peroxa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-09-17T05:49:06.212Z",
+      "notes": "",
+      "position": {
+        "lat": "42.45632352537442",
+        "lng": "-7.797872747828868"
+      },
+      "id": "NXGdSJth9Po"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
